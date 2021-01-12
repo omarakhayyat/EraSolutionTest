@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:testCase/model/employeesModel.dart';
-import 'package:testCase/model/notificationModel.dart';
-import 'package:testCase/model/recordsModel.dart';
-import 'package:testCase/model/rolesModel.dart';
-import 'package:testCase/model/scheduleModel.dart';
-import 'package:testCase/pages/addRolePage.dart';
-import 'package:testCase/pages/detailsPage.dart';
-import 'package:testCase/services/apiEmployeesFunction.dart';
-import 'package:testCase/services/apiNotificationFunction.dart';
-import 'package:testCase/services/apiRecordsFunction.dart';
-import 'package:testCase/services/apiRolesFunction.dart';
-import 'package:testCase/services/apiScheduleFunction.dart';
+import 'package:test_case/model/employeesModel.dart';
+import 'package:test_case/model/notificationModel.dart';
+import 'package:test_case/model/recordsModel.dart';
+import 'package:test_case/model/rolesModel.dart';
+import 'package:test_case/model/scheduleModel.dart';
+import 'package:test_case/pages/addRolePage.dart';
+import 'package:test_case/pages/detailsPage.dart';
+import 'package:test_case/services/apiEmployeesFunction.dart';
+import 'package:test_case/services/apiNotificationFunction.dart';
+import 'package:test_case/services/apiRecordsFunction.dart';
+import 'package:test_case/services/apiRolesFunction.dart';
+import 'package:test_case/services/apiScheduleFunction.dart';
 
 class MainPage extends StatefulWidget {
   @override

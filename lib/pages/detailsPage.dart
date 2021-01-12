@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'dart:typed_data';
 
 import 'package:flutter/material.dart';
-import 'package:testCase/model/notificationModel.dart';
+import 'package:test_case/model/notificationModel.dart';
 
 class DetailsPage extends StatelessWidget {
   final dynamic data;

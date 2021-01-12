@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:testCase/model/rolesModel.dart';
+import 'package:test_case/model/rolesModel.dart';
 import 'package:http/http.dart' as http;
 
 Future<RolesModel> rolesGet() async {

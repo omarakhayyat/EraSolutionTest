@@ -4,8 +4,8 @@ import 'package:flutter/services.dart';
 
 import 'package:intl/intl.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:testCase/functions/saveLogout.dart';
-import 'package:testCase/pages/main_page.dart';
+import 'package:test_case/functions/saveLogout.dart';
+import 'package:test_case/pages/main_page.dart';
 
 import '../main.dart';
 

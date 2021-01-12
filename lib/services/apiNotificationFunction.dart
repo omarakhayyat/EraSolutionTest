@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
 import 'dart:convert';
-import 'package:testCase/model/loginModel.dart';
-import 'package:testCase/model/notificationModel.dart';
+import 'package:test_case/model/loginModel.dart';
+import 'package:test_case/model/notificationModel.dart';
 
 Future<NotificationModel> notificationGet() async {
   final url = "https://disinfection.azurewebsites.net/notification/getAll";

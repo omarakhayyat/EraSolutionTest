@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:testCase/pages/main_page.dart';
-import 'package:testCase/pages/splashScreen.dart';
-import 'package:testCase/services/apiLoginFunction.dart';
+import 'package:test_case/pages/main_page.dart';
+import 'package:test_case/pages/splashScreen.dart';
+import 'package:test_case/services/apiLoginFunction.dart';
 
 import 'functions/getToken.dart';
 
@@ -107,14 +107,6 @@ class _MyHomePageState extends State<MyHomePage> {
                         print(passControl.text);
                       },
                     ),
-                    RaisedButton(
-                        child: Text("NextPage"),
-                        onPressed: () {
-                          Navigator.pushReplacement(
-                            context,
-                            MaterialPageRoute(builder: (context) => MainPage()),
-                          );
-                        })
                   ],
                 ),
               ),

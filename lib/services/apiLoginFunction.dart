@@ -4,9 +4,9 @@ import 'package:http/http.dart' as http;
 
 import 'dart:convert';
 
-import 'package:testCase/functions/showDialogButton.dart';
-import 'package:testCase/model/loginModel.dart';
-import 'package:testCase/pages/main_page.dart';
+import 'package:test_case/functions/showDialogButton.dart';
+import 'package:test_case/model/loginModel.dart';
+import 'package:test_case/pages/main_page.dart';
 
 Future<LoginModel> requestLoginAPI(
     BuildContext context, String username, String password) async {

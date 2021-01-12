@@ -1,9 +1,9 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:testCase/model/rolesModel.dart';
+import 'package:test_case/model/rolesModel.dart';
 import 'package:http/http.dart' as http;
-import 'package:testCase/model/scheduleModel.dart';
+import 'package:test_case/model/scheduleModel.dart';
 
 Future<ScheduleModel> scheduleGet() async {
   final url = "https://disinfection.azurewebsites.net/schedule/getAll";
