@@ -26,13 +26,10 @@ Future<LoginModel> requestLoginAPI(
     body: utf8.encode(json.encode(body)),
     headers: headers,
   );
-
-  if (response.statusCode == 200) {
-    final responseJson = json.decode(response.body);
-    var user = LoginModel.fromJson(responseJson);
+  final responseJson = json.decode(response.body);
+  var user = LoginModel.fromJson(responseJson);
+  if (response.statusCode == 200 && user.sucess == true) {
     print(responseJson);
-
-    //saveCurrentLogin(responseJson);
 
     Navigator.pushReplacement(
         context, MaterialPageRoute(builder: (context) => MainPage()));
